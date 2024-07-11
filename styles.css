@@ -1,0 +1,67 @@
+body {
+    font-family: 'Times New Roman', Times, serif; 
+    margin: 0;
+    padding: 0;
+    background: url('img/Picture2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header img {
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+header h1 {
+    margin: 0;
+    padding-top: 2em;
+    font-size: 3em; /* Ukuran font lebih besar */
+    font-family: 'Times New Roman', Times, serif; /* Menggunakan font Times New Roman */
+}
+
+header .contact-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.5em 1em;
+    background-color: #0ec8e9;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro, .details, .ready, .exams, .national-exams, .contact, .promo {
+    margin: 2em auto;
+    max-width: 800px;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparansi untuk melihat latar belakang */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.card {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: rgba(250, 250, 250, 0.9); /* Transparansi untuk melihat latar belakang */
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: rgba(51, 51, 51, 0.9); /* Transparansi untuk melihat latar belakang */
+    color: white;
+}
